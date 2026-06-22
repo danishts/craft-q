@@ -144,7 +144,7 @@ export default function Sidebar() {
       <h1 className="text-xl text-center font-bold mb-14">Menu</h1>
 
       {/* MENU */}
-      <div className="flex flex-col gap-3 overflow-y-auto">
+      <div className="flex flex-col gap-3 font-Poppins overflow-y-auto">
         {sidebarMenu.map((item, i) => {
           const Icon = item.icon;
 

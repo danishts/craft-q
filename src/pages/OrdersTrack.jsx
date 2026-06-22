@@ -111,65 +111,6 @@ function OrdersTrack() {
             </div>
           </div>
 
-          <div className="w-full">
-            <div className="w-full rounded-[19.65px] border border-[#F1F1F2] p-[15.72px] mt-[25.63px]">
-              <div className="flex items-start justify-between w-full mb-4">
-                <div className="flex items-center gap-3 text-[#151515] opacity-70 text-[10.81px]">
-                  <svg
-                    className="w-4 h-4"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"
-                      stroke="#151515"
-                      strokeWidth="1"
-                    />
-                  </svg>
-                  <span className="text-[11.79px]">
-                    House Number 2345, 516 Chandler Groves, New Mexico
-                  </span>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <img
-                  src={yesImg}
-                  alt="item"
-                  className="w-[62.27px] h-[62.27px] rounded-[11.32px] object-cover"
-                />
-                <div className="flex flex-col justify-between w-full">
-                  <div className="flex items-start justify-between w-full">
-                    <div>
-                      <p className="text-[16.3px] font-dm font-medium text-[#151515]">
-                        Sofa Reupholstery
-                      </p>
-                      <p className="text-[11.29px] font-dm font-medium text-[#151515]">
-                        Quote ID <span className="opacity-80 text-[8.78px]">#COM-001</span>
-                      </p>
-                    </div>
-
-                    <div className="text-right">
-                      <p className="text-[11.25px] font-dm font-medium opacity-70">
-                        Quote Total
-                      </p>
-                      <p className="text-[18.32px] font-dm font-medium">$1,250</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center justify-between mt-4">
-                    <div className="flex items-center gap-3">
-                      <div className="text-[11.29px] font-dm font-medium">Priority</div>
-                      <div className="flex items-center gap-2 bg-[#E6FFED] px-2 py-1 rounded text-[7.5px] text-[#007408]">
-                        Yes
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>

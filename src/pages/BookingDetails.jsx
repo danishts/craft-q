@@ -31,7 +31,7 @@ function BookingDetails() {
         showAssignVendor={false}
       />
       <CustomerInfo state={state} activeTab={activeTab} />
-      <div className="mt-6 max-w-[870px] w-full bg-white p-[30px] rounded-[30px] shadow-sm">
+      <div className="mt-6 max-w-[870px] w-full bg-white p-[30px] ">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[2.38px]">
           <div>
             <p className="text-[#A1A5B7] font-poppins font-semibold text-[17.23px]">
