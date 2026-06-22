@@ -43,7 +43,7 @@ function Dashboard() {
 
       {/* TABLE */}
       <div className="mt-6">
-        <UpholsteryQuotes hideHeader={true} />
+        <UpholsteryQuotes  />
 
         {/* ✅ VIEW MORE BUTTON */}
         <div className="flex justify-center mt-3">
