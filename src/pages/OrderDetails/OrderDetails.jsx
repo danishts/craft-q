@@ -5,8 +5,9 @@ import Header from "./components/Header";
 import CustomerInfo from "./components/CustomerInfo";
 import Tabs from "./components/Tabs";
 // import FurnitureTab from "./components/FurnitureTab";
-import FurnitureTab from "./components/FurnitureTab";
+
 import OrdersTrack from "./components/OrdersTrack";
+import FurnitureTab from "./components/FurnitureTab";
 
 function OrderDetails() {
   const { state } = useLocation();
