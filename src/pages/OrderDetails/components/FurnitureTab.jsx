@@ -1,5 +1,5 @@
 import React from "react";
-import fImg from "../../../assets/f.png";
+import fImg from "../../../assets/F.png";
 
 function FurnitureTab({ state }) {
   return (
