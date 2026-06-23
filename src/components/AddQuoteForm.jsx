@@ -73,7 +73,8 @@ function AddQuoteForm({ isOpen, onClose, onAdd }) {
         <div className="flex justify-end gap-2">
           <button type="button" onClick={onClose} className="px-3 py-2">
             Cancel
-          </button>
+                  </button>
+                  
           <button type="submit" className="px-3 py-2 bg-[#3A2414] text-white rounded">
             Add
           </button>

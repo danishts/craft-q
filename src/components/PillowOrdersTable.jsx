@@ -425,7 +425,7 @@ function PillowOrdersTable({ data, onDelete, onRowClick }) {
                   </td>
 
                   <td className="py-4">
-                    <span className="px-3 py-1 bg-[#F7E9D8] text-[#FF8800] rounded-full text-[12px] font-semibold">
+                    <span className="px-3 py-1 bg-[#F7E9D8] rounded-sm text-[#FF8800]  text-[12px] font-semibold">
                       {item.status}
                     </span>
                   </td>
@@ -440,7 +440,7 @@ function PillowOrdersTable({ data, onDelete, onRowClick }) {
 
                   <td className="py-4">
                     <div className="flex items-center justify-center gap-3">
-                      <BsChatSquareDotsFill className="text-[18px] text-[#A1A5B7] cursor-pointer hover:text-[#FF8800] transition-colors" />
+                      <BsChatSquareDotsFill className="text-[18px] text-[#A1A5B7]  cursor-pointer hover:text-[#FF8800] transition-colors" />
                       {onDelete && (
                         <button
                           onClick={(e) => {

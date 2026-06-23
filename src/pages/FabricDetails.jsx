@@ -75,7 +75,7 @@ function FabricDetails() {
             <p className="text-[#A1A5B7] font-poppins font-semibold text-[17.23px]">
               Current Status
             </p>
-            <p className="text-[#48525B] font-poppins font-semibold text-[18.66px] mt-2">
+            <p className="text-[#48525B] font-poppins  font-semibold text-[18.66px] mt-2">
               {details.currentStatus}
             </p>
           </div>

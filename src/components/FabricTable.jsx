@@ -67,10 +67,11 @@ function FabricTable({ data, searchTerm = "", onRowClick }) {
                     {item.materialType}
                   </span>
                 </td>
-                <td className="px-3 sm:px-6 py-3 sm:py-5 border-b border-dashed border-[#F1F1F2] whitespace-nowrap">
-                  <span className="font-poppins font-semibold text-[13px] text-[#48525B]">
+                <td className="px-3 sm:px-6 py-4 sm:py-5 border-b border-dashed border-[#F1F1F2] whitespace-nowrap">
+                 
+                  <span className="inline-flex items-center px-3 py-1 bg-[#F7E9D8] text-[#FF8800] rounded-sm text-[13px] font-semibold font-poppins">
                     {item.currentStatus}
-                  </span>
+                  </span>{" "}
                 </td>
                 <td className="px-3 sm:px-6 py-3 sm:py-5 border-b border-dashed border-[#F1F1F2] whitespace-nowrap">
                   <span className="font-poppins font-semibold text-[13px] text-[#48525B]">

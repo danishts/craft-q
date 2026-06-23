@@ -273,7 +273,7 @@ function Table({ data, onDelete, searchTerm = "" }) {
 
                 {/* Status */}
                 <td className="px-3 sm:px-6 py-3 sm:py-5 border-b border-dashed border-[#F1F1F2] whitespace-nowrap">
-                  <span className="inline-flex items-center px-3 py-1 bg-[#FCEFDE] text-[#FF8800] font-semibold text-[12px] ">
+                  <span className="inline-flex items-center px-3 py-1 bg-[#FCEFDE] rounded-sm text-[#FF8800] font-semibold text-[12px] ">
                     {item.status}
                   </span>
                 </td>

@@ -105,7 +105,7 @@ function OrderTracker() {
                     </span>
                   </td>
                   <td className="px-3 sm:px-6 py-3 sm:py-5 border-b border-dashed border-[#F1F1F2] whitespace-nowrap">
-                    <span className="inline-flex items-center px-2.5 py-1 rounded-full bg-[#FCEFDE] text-[#FF8800] font-poppins font-semibold text-[12px]">
+                    <span className="inline-flex items-center px-2.5 py-1 rounded-sm bg-[#FCEFDE] text-[#FF8800] font-poppins font-semibold text-[12px]">
                       {item.currentProgress}
                     </span>
                   </td>
