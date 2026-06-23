@@ -8,7 +8,7 @@ function FurnitureTab({ state }) {
         src={fImg}
         alt="furniture"
         className="w-full sm:w-[245.97px] h-auto sm:h-[254.49px] rounded-[19px] object-cover"
-      />   
+      />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-[23.38px] w-full lg:w-[441.23px]">
         <div>
@@ -61,3 +61,7 @@ function FurnitureTab({ state }) {
 }
 
 export default FurnitureTab;
+
+
+
+
